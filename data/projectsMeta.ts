@@ -20,6 +20,7 @@ export const REPO_TAGS: Record<string, string[]> = {
   "Recursive-vs.-Non-recursive": ["Algorithm", "Recursive", "Non-recursive", "C++", "Advanced Data Structures"],
   "Brute-Force-Algorithm-vs.-Euclidian-Algorithm": ["Algorithm", "Brute Force", "Euclidean Algorithm", "C++", "Advanced Data Structures"],
   "Princeton-Portfolio": ["Portfolio", "Web Development", "TypeScript", "JavaScript", "React", "Tailwind CSS", "Next.js", "Frontend"],
+  "Job-Tracker": ["JWT Authentication", "Web Development", "TypeScript", "JavaScript", "React", "Tailwind CSS", "Next.js", "Frontend"]
 };
 
 // these are all the tags available for filtering
