@@ -42,6 +42,12 @@ export default function ProjectGrid() {
       _tags: getTags(r.name),
     }));
 
+    withMeta.sort((a, b) => {
+      if (a._pinned && !b._pinned) return -1;
+      if (!a._pinned && b._pinned) return 1;
+      return 0;
+    });
+
     if (selected === "All") return withMeta;
 
     if (selected === "Pinned") {
